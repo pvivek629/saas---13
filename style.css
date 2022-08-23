@@ -1,0 +1,474 @@
+*{
+    margin: 0px;
+    font-family: "Red Rose", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+}
+
+.first{
+    background-color: #7F00FF;
+    height: 700px;
+    padding-left: 170px;
+    padding-top: 60px;
+}
+
+.navbar{
+    display: flex;
+}
+
+.nav1{
+    display: flex;
+    margin-left: 300px;
+    margin-top: 15px;
+}
+
+.listitem{
+    list-style-type: none;
+    padding-left: 40px;
+    font-size: 20px;
+    color: #f9f9f9;
+}
+
+.freetrail{
+    margin-left: 70px;
+    margin-top: 2px;
+}
+
+.freetrail1{
+    padding: 13px 23px 13px 23px;
+    font-size: 18px;
+    background-color: #02bbbe;
+    color: #f9f9f9;
+    border: none;
+}
+
+.nav-menu-icon{
+    display: none;
+}
+
+/* First Page */
+
+.firstpage{
+    margin-top: 60px;
+}
+
+.firstpage1{
+    display: flex;
+}
+
+.firstleft{
+    width: 630px;
+    margin-top: 60px;
+}
+
+.codext{
+    font-size: 65px;
+    font-weight: bold;
+    margin-right: 90px;
+    color: #f9f9f9;
+}
+
+.codextdetail{
+    margin-top: 40px;
+    margin-right: 160px;
+    font-size: 20px;
+    color: rgb(209, 214, 219);
+}
+
+.firstright{
+    margin-top: -110px;
+}
+
+.firstright1{
+    width: 800px;
+    height: 700px;
+}
+
+/* Second Page */
+
+.second{
+    margin-top: 80px;
+    margin-left: 90px;
+}
+
+.secondpage{
+    display: flex;
+}
+
+.saasimg{
+    width: 700px;
+}
+
+.seconddetail{
+    margin-left: 300px;
+}
+
+.saasheading{
+    margin-right: 100px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+.ultra{
+    
+    margin-top: 50px;
+}
+
+.icon1{
+    display: flex;
+}
+
+
+.ultra1{
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 25px;
+    margin-top: -13px;
+}
+
+.ultradetail{
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 140px;
+    font-size: 20px;
+    color: rgb(67, 69, 70);
+    font-weight: 700px;
+}
+
+
+/* Third page */
+
+.third{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.thirddetail{
+    font-size: 40px;
+    margin-left: 600px;
+    margin-right: 580px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.thirdpagecard{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 300px;
+}
+
+.card {
+    width: 230px;
+    background-color: #ffffff;
+    padding-bottom: 50px;
+    border-radius: 30px;
+    box-shadow: 5px 7px #888888;
+    cursor: pointer;
+}
+
+.card1 {
+    width: 230px;
+    background-color: #ffffff;
+    margin-left: 40px;
+    border-radius: 30px;
+    box-shadow: 5px 7px #888888;
+    cursor: pointer;
+}
+
+.card2{
+    width: 230px;
+    background-color: #ffffff;
+    margin-left: 40px;
+    border-radius: 30px;
+    box-shadow: 5px 7px #888888;
+    cursor: pointer;
+}
+
+.card3{
+    width: 230px;
+    background-color: #ffffff;
+    margin-left: 40px;
+    border-radius: 30px;
+    box-shadow: 5px 7px #888888;
+    cursor: pointer;
+}
+
+.cardimg{
+    width: 50px;
+    padding-left: 90px;
+    padding-top: 40px;
+}
+
+.cardimg1{
+    width: 50px;
+    padding-left: 100px;
+    padding-top: 30px;
+}
+
+.cardhead{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.carddetail{
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 18px;
+}
+
+.card:hover{
+    background-color: #7F00FF;
+}
+
+.card1:hover{
+    background-color: #7F00FF;
+}
+
+.card2:hover{
+    background-color: #7F00FF;
+}
+
+.card3:hover{
+    background-color: #7F00FF;
+}
+
+
+/* Mobile Responsive */
+
+@media screen and (max-width: 1230px){
+
+    /* First Page */
+
+    .first{
+        background-color: #7F00FF;
+        width: 1230px;
+        height: 700px;
+        padding-left: 170px;
+        padding-top: 60px;
+    }
+    
+    .navbar{
+        display: flex;
+    }
+    
+    .nav1{
+        display: none;
+    }
+
+    .freetrail{
+        display: none;
+    }
+    
+    .nav-menu-icon{
+        display: block;
+        margin: auto;
+    }
+
+    .nav-menu-icon i{
+        font-size: 50px;
+        color: #f9f9f9;
+        margin-left: 170px;
+    }
+    
+    /* First Page */
+    
+    .firstpage{
+        margin-top: 60px;
+    }
+    
+    .firstpage1{
+        display: flex;
+    }
+    
+    .firstleft{
+        width: 630px;
+        margin-top: 60px;
+    }
+    
+    .codext{
+        font-size: 65px;
+        font-weight: bold;
+        margin-right: 90px;
+        color: #f9f9f9;
+    }
+    
+    .codextdetail{
+        margin-top: 40px;
+        margin-right: 40px;
+        font-size: 20px;
+        color: rgb(209, 214, 219);
+    }
+    
+    .firstright{
+       display: none;
+    }
+    
+    /* second page */
+
+    .second{
+        margin-top: 80px;
+        margin-left: 90px;
+    }
+    
+    .secondpage{
+        flex-direction: column;
+    }
+    
+    .saasimg{
+        width: 700px;
+        margin-left: 60px;
+    }
+    
+    .seconddetail{
+        width: 1000px;
+        margin-left: 50px;
+        margin-right: 10px;
+    }
+    
+    .saasheading{
+        margin-right: 10px;
+        font-size: 60px;
+        font-weight: bold;
+        margin-top: 100px;
+    }
+    
+    .ultra{
+        
+        margin-top: 50px;
+    }
+
+    .icon1 i{
+        font-size: 50px;
+    }
+    
+    .icon1{
+        display: flex;
+    }
+    
+    
+    .ultra1{
+        font-size: 50px;
+        font-weight: bold;
+        margin-left: 25px;
+        margin-top: -13px;
+    }
+    
+    .ultradetail{
+        margin-top: 20px;
+        margin-left: 70px;
+        margin-right: 30px;
+        font-size: 30px;
+        color: rgb(67, 69, 70);
+        font-weight: 700px;
+    }
+    
+    /* Third page */
+
+.third{
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.thirddetail{
+    width: 1000px;
+    font-size: 50px;
+    margin-left: 90px;
+    margin-right: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.thirdpagecard{
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 340px;
+}
+
+.card {
+    width: 450px;
+    background-color: #ffffff;
+    padding-bottom: 50px;
+    border-radius: 30px;
+    box-shadow: 5px 7px #888888;
+    margin-bottom: 30px;
+}
+
+.card1 {
+    width: 450px;
+    background-color: #ffffff;
+    margin-left: 0px;
+    margin-top: 40px;
+    border-radius: 30px;
+    box-shadow: 5px 7px #888888;
+    padding-bottom: 50px;
+}
+
+.card2{
+    width: 450px;
+    background-color: #ffffff;
+    margin-left: 0px;
+    margin-top: 40px;
+    border-radius: 30px;
+    box-shadow: 5px 7px #888888;
+    padding-bottom: 50px;
+}
+
+.card3{
+    width: 450px;
+    background-color: #ffffff;
+    margin-left: 0px;
+    margin-top: 40px;
+    border-radius: 30px;
+    box-shadow: 5px 7px #888888;
+    padding-bottom: 50px;
+}
+
+.cardimg{
+    width: 70px;
+    padding-left: 180px;
+    padding-top: 40px;
+}
+
+.cardimg1{
+    width: 50px;
+    padding-left: 190px;
+    padding-top: 30px;
+}
+
+.cardhead{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.carddetail{
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 15px;
+    font-size: 38px;
+}
+
+.card:hover{
+    background-color: #7F00FF;
+}
+
+.card1:hover{
+    background-color: #7F00FF;
+}
+
+.card2:hover{
+    background-color: #7F00FF;
+}
+
+.card3:hover{
+    background-color: #7F00FF;
+}
+
+
+    
+}
